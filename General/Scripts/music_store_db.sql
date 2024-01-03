@@ -1,23 +1,24 @@
 create table Genre(
 genre_id serial primary key,
-title varchar(255)
+title varchar(255) unique
 );
 
 create table Musician(
 musician_id serial primary key,
-musician_name varchar(255)
+musician_name varchar(255) unique
 );
 
 create table Album(
 album_id serial primary key,
 title varchar(255),
-release_year integer
+release_year int,
+constraint release_year check(release_year between 1900 and 2024)
 );
 
 create table Track(
 track_id serial primary key,
 title varchar(255),
-duration text,
+duration int not null,
 album_id int not null,
 constraint fk_album foreign key(album_id) references Album(album_id) on delete cascade
 );
@@ -25,7 +26,8 @@ constraint fk_album foreign key(album_id) references Album(album_id) on delete c
 create table Compilation(
 compilation_id serial primary key,
 title varchar(255),
-release_year integer
+release_year int,
+constraint release_year check(release_year between 1900 and 2024)
 );
 
 create table compilation_track (
@@ -51,4 +53,8 @@ musician_id int not null,
 constraint fk_album foreign key(album_id) references Album(album_id) on delete cascade,
 constraint fk_musician foreign key(musician_id) references Musician(musician_id) on delete cascade
 );
+
+
+
+
 
