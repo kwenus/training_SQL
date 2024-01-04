@@ -60,3 +60,22 @@ values ('I Decline', 118, 6), ('Queen', 230, 6), ('Fool', 235, 6), ('No Good', 2
 ('Head over Heels', 218, 17), ('Turn to You', 228, 17), ('You Thought', 252, 17), ('Beneath the Blue Sky', 180, 17), ('Forget That Day', 265, 17),
 ('I''m the Only One', 209, 17), ('Yes or No', 244, 17), ('Capture the Light', 195, 17), ('I''m with You', 217, 17), ('Mercenary', 220, 17)
 
+insert into track (title, duration, album_id)
+values ('Requiem for O.M.M.2', 139, 3), ('I Was Never Young', 210, 3), ('Wraith Pinned to the Mist and Other Games', 255, 3), ('Forecast Fascist Future', 262, 3),
+('So Begins Our Alabee', 255, 3), ('Our Spring Is Sweet Not Fleeting', 62, 3), ('The Party''s Crashing Us', 293, 3), ('Knight Rider', 66, 3),
+('I Was a Landscape in Your Dream', 185, 3), ('Death of a Shade of a Hue', 174, 3), ('Oslo in the Summertime', 201, 3), ('October Is Eternal', 238, 3), 
+('The Repudiated Immortals', 138, 3),
+('Holiday', 202, 13), ('Gun Fluf', 209, 13), ('NYC Tough Guy', 154, 13), ('Make-Up', 168, 13), ('Big Shot', 163, 13), ('Bombastic', 191, 13), ('Reprise', 101, 13),
+('Dislocated', 199, 13), ('Tell Me Again', 163, 13), ('Powder Puff', 221, 13), ('Resolution', 103, 13),
+('Just a Room', 210, 4), ('Herem', 441, 4), ('Teeth', 253, 4), ('Pop Song', 305, 4), ('Scherzo', 231, 4), ('Ugly Season', 280, 4), ('Eye in the Wall', 522, 4),
+('Photograph', 281, 4), ('Hellbent', 402, 4), ('Cenote', 213, 4),
+('The Power to Believe I: A Cappella', 44, 7), ('Level Five', 437, 7), ('Eyes Wide Open', 248, 7), ('Elektrik', 479, 7), ('Facts of Life: Intro', 98, 7),
+('Facts of Life', 305, 7), ('The Power to Believe II', 483, 7), ('Dangerous Curves', 392, 7), ('Happy with What You Have to Be Happy With', 197, 7),
+('The Power to Believe III', 249, 7), ('The Power to Believe IV: Coda', 149, 7),
+('La La Land', 181, 16), ('Unforgiven', 203, 16), ('Apology', 237, 16), ('Stuck in My Car', 206, 16), ('Vision of Nowness', 175, 16), ('Here You Are', 241, 16),
+('Automatic Rainy Day', 197, 16), ('Kissing Asphalt', 169, 16), ('Insincere', 225, 16), ('Sonic Superslide', 211, 16), ('Throw Me a Curve', 191, 16), 
+('Talking Myself Down', 235, 16), ('Daisy Chain', 225, 16),
+('Birdsong', 310, 12), ('Rape This Day', 192, 12), ('You Can''t Win', 289, 12), ('Mayday', 212, 12), ('Rotgut', 171, 12), ('Capt Midnight', 190, 12),
+('Desastre Natural', 178, 12), ('When the Stars Begin to Fall', 174, 12), ('Harelip',210, 12), ('Harlem Clowns', 220, 12), ('Aktion 13F14', 295, 12)
+
+
