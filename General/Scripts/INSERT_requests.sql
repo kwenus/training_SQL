@@ -1,12 +1,10 @@
 insert into genre(title)
-values ('rock'), ('indie'), ('pop'), ('post-punk'), 
-('metal'), ('experimental'), ('folk'), ('prog-rock')
+values ('rock'), ('indie'), ('pop'), ('post-punk'), ('metal'), ('experimental'), ('folk'), ('prog-rock')
 
 insert into musician (musician_name)
-values ('Of Montreal'), ('Perfume Genius'), ('King Crimson'), 
-('Tomahawk'), ('Helmet'), ('The Go-Go''s')
+values ('Of Montreal'), ('Perfume Genius'), ('King Crimson'), ('Tomahawk'), ('Helmet'), ('The Go-Go''s')
 
-insert into genre_musician (genre_id, musician_id) 
+insert into genre_musician (genre_id, musician_id)
 values (1, 5), (2, 1), (8, 3), (3, 2), (4, 6), (5, 4)
 
 insert into album (title, release_year)
@@ -87,6 +85,9 @@ values (1, 12), (1, 10),(1, 4), (1, 31), (1, 59), (1, 92), (1, 2),(1, 40), (1, 3
 (3, 77), (3, 79), (3, 15),(3, 91), (3, 70), (3, 90), (3, 76), (3, 58), (3, 115), (3, 128), (3, 100),
 (4, 32), (4, 36), (4, 89), (4, 37), (4, 88), (4, 90), (4, 114), (4, 130), (4, 40),
 (5, 52), (5, 92), (5, 3),(5, 13), (5, 42), (5, 75), (5, 82), (5, 63), (5, 16), (5, 43), (5, 12)
+
+insert into genre_musician (genre_id, musician_id) 
+values (1, 3), (6, 3), (7, 3), (1, 1), (3, 1), (4, 1), (6, 1), (7, 1), (1, 2), (3, 2), (7, 2), (1, 4), (5, 4), (5, 5), (1, 6), (3, 6)
 
 
 
