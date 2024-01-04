@@ -71,11 +71,22 @@ values ('Requiem for O.M.M.2', 139, 3), ('I Was Never Young', 210, 3), ('Wraith 
 ('Photograph', 281, 4), ('Hellbent', 402, 4), ('Cenote', 213, 4),
 ('The Power to Believe I: A Cappella', 44, 7), ('Level Five', 437, 7), ('Eyes Wide Open', 248, 7), ('Elektrik', 479, 7), ('Facts of Life: Intro', 98, 7),
 ('Facts of Life', 305, 7), ('The Power to Believe II', 483, 7), ('Dangerous Curves', 392, 7), ('Happy with What You Have to Be Happy With', 197, 7),
-('The Power to Believe III', 249, 7), ('The Power to Believe IV: Coda', 149, 7),
+('The Power to Believe III', 249, 7), ('The Power to Belie5ve IV: Coda', 149, 7),
 ('La La Land', 181, 16), ('Unforgiven', 203, 16), ('Apology', 237, 16), ('Stuck in My Car', 206, 16), ('Vision of Nowness', 175, 16), ('Here You Are', 241, 16),
 ('Automatic Rainy Day', 197, 16), ('Kissing Asphalt', 169, 16), ('Insincere', 225, 16), ('Sonic Superslide', 211, 16), ('Throw Me a Curve', 191, 16), 
 ('Talking Myself Down', 235, 16), ('Daisy Chain', 225, 16),
 ('Birdsong', 310, 12), ('Rape This Day', 192, 12), ('You Can''t Win', 289, 12), ('Mayday', 212, 12), ('Rotgut', 171, 12), ('Capt Midnight', 190, 12),
 ('Desastre Natural', 178, 12), ('When the Stars Begin to Fall', 174, 12), ('Harelip',210, 12), ('Harlem Clowns', 220, 12), ('Aktion 13F14', 295, 12)
+
+insert into compilation (title, release_year)
+values ('Strange songs', 2021), ('Songs for Imagination', 2022), ('Gym songs', 2020), ('About Time', 2023), ('Slow down everybody', 2021)
+
+insert into compilation_track (compilation_id, track_id)
+values (1, 12), (1, 10),(1, 4), (1, 31), (1, 59), (1, 92), (1, 2),(1, 40), (1, 37), (1, 70),
+(2, 1),  (2, 15), (2, 42), (2, 57), (2, 60), (2, 58), (2, 33), (2, 29), (2, 17), (2, 53), (2, 45),
+(3, 77), (3, 79), (3, 15),(3, 91), (3, 70), (3, 90), (3, 76), (3, 58), (3, 115), (3, 128), (3, 100),
+(4, 32), (4, 36), (4, 89), (4, 37), (4, 88), (4, 90), (4, 114), (4, 130), (4, 40),
+(5, 52), (5, 92), (5, 3),(5, 13), (5, 42), (5, 75), (5, 82), (5, 63), (5, 16), (5, 43), (5, 12)
+
 
 
