@@ -41,7 +41,7 @@ insert into album (title, release_year)
 values ('God Bless the Go-Go''s ', 2001), ('Talk Show', 1984), ('Beauty and the Beat', 1981)
 
 insert into musician_album (album_id, musician_id)
-values (17, 6), (17, 6), (18, 6)
+values (16, 6), (17, 6), (18, 6)
 
 insert into track (title, duration, album_id)
 values ('I Decline', 118, 6), ('Queen', 230, 6), ('Fool', 235, 6), ('No Good', 229, 6), ('My Body',	137, 6), ('Don''t Let Them In', 141, 6), 
@@ -88,5 +88,7 @@ values (1, 12), (1, 10),(1, 4), (1, 31), (1, 59), (1, 92), (1, 2),(1, 40), (1, 3
 
 insert into genre_musician (genre_id, musician_id) 
 values (1, 3), (6, 3), (7, 3), (1, 1), (3, 1), (4, 1), (6, 1), (7, 1), (1, 2), (3, 2), (7, 2), (1, 4), (5, 4), (5, 5), (1, 6), (3, 6)
+
+
 
 
